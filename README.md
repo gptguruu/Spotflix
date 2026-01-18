@@ -6,8 +6,11 @@ The system builds a playlist embedding and ranks new songs using cosine similari
 📌 Key Features
 
 🎼 Content-based recommendation using TF-IDF + audio features.
+
 📊 Playlist vector summarization with recency-based weighting.
+
 📐 Similarity scoring using cosine similarity.
+
 ⚡ Fast inference with vectorized computations.
 
 The recommendation pipeline consists of five major stages:
@@ -72,33 +75,35 @@ Return Top-N recommendations not already present in the playlist
 
 🚀 Tech Stack
 
-Languages & Libraries
+1. Languages & Libraries
 
-Python
+2. Python
 
-NumPy, Pandas
+3. NumPy, Pandas
 
-Scikit-learn
+4. Scikit-learn
 
-Librosa (audio feature extraction)
+5. Librosa (audio feature extraction)
 
 Backend
 
-SQL (metadata storage)
+1. SQL (metadata storage)
 
 Visualization
 
-Matplotlib, Seaborn
+1. Matplotlib
+
+2. Seaborn
 
 
 
 🧪 Results
 
-Achieved 91% recommendation relevance
+==>Achieved 91% recommendation relevance
 
-Improved user engagement by 44%
+==>Improved user engagement by 44%
 
-Efficient inference using vectorized similarity computation
+==>Efficient inference using vectorized similarity computation
 
 
 
