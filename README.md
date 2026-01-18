@@ -1,4 +1,4 @@
-#🎧 Spotflix – Personalized Music Recommendation System
+🎧 Spotflix – Personalized Music Recommendation System
 
 Spotflix is a content-based music recommendation system that generates personalized song recommendations for users by analyzing playlist metadata, audio features, and user listening history.
 The system builds a playlist embedding and ranks new songs using cosine similarity, ensuring recommendations closely match a user’s musical taste.
