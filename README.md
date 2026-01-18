@@ -5,10 +5,10 @@ The system builds a playlist embedding and ranks new songs using cosine similari
 
 📌 Key Features
 
-🎼 Content-based recommendation using TF-IDF + audio features
-📊 Playlist vector summarization with recency-based weighting
-📐 Similarity scoring using cosine similarity
-⚡ Fast inference with vectorized computations
+🎼 Content-based recommendation using TF-IDF + audio features.
+📊 Playlist vector summarization with recency-based weighting.
+📐 Similarity scoring using cosine similarity.
+⚡ Fast inference with vectorized computations.
 
 The recommendation pipeline consists of five major stages:
 
