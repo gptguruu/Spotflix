@@ -37,7 +37,9 @@ TF-IDF is used to weight song genres and metadata terms based on their importanc
 Example:
 
 Song	     Rock	 Pop	Metal
+
 Song 1	   0.5	 0.0	1.0
+
 Song 2	   0.5	 1.0	0.0
 
 This ensures rare but informative genres have higher influence.
@@ -45,6 +47,7 @@ This ensures rare but informative genres have higher influence.
 📦 Playlist Vector Construction
 
 Each song in a playlist is converted into a feature vector.
+
 Songs are weighted based on recency, giving more importance to recently added tracks.
 
 Final Playlist Vector = Weighted sum of all song vectors
@@ -62,29 +65,41 @@ Similarity(A,B)=A⋅B/∣∣A∣∣⋅∣∣B∣∣
 🎯 Recommendation Generation
 
 Compute cosine similarity between playlist vector and all candidate songs
+
 Rank songs by similarity score
+
 Return Top-N recommendations not already present in the playlist
 
 🚀 Tech Stack
 
 Languages & Libraries
+
 Python
+
 NumPy, Pandas
+
 Scikit-learn
+
 Librosa (audio feature extraction)
 
 Backend
 
 SQL (metadata storage)
+
 Visualization
+
 Matplotlib, Seaborn
+
 
 
 🧪 Results
 
 Achieved 91% recommendation relevance
+
 Improved user engagement by 44%
+
 Efficient inference using vectorized similarity computation
+
 
 
 Kaggle Dataset - https://www.kaggle.com/yamaerenay/spotify-dataset-19212020-160k-tracks
