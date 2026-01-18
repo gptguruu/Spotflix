@@ -29,15 +29,16 @@ Tempo
 Cleaned and normalized features using NumPy & Pandas
 
 🛠 Feature Engineering
+
 🔹 TF-IDF for Metadata Representation
 
 TF-IDF is used to weight song genres and metadata terms based on their importance across the entire catalog.
 
 Example:
 
-Song	Rock	Pop	Metal
-Song 1	0.5	0.0	1.0
-Song 2	0.5	1.0	0.0
+Song	     Rock	 Pop	Metal
+Song 1	   0.5	 0.0	1.0
+Song 2	   0.5	 1.0	0.0
 
 This ensures rare but informative genres have higher influence.
 
